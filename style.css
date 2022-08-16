@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Righteous', cursive;
+    background-color: #E5E5E5;
+    width: 100%;
+    margin-top:115px;
+    margin-left: 21px;
+    margin-bottom: 115px;
+}
+    
+header{
+    background-color: #CF2B2B;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    flex-direction: column;
+    padding: 8px 40px 18px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-style: normal;
+    
+}
+
+header p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+main{
+    background-color:#E5E5E5;
+    margin: 42px 0;
+
+}
+h2{
+    color: #333333;
+    font-size:26px;
+
+    margin: 17px 0;
+}
+
+h3{
+    color: #333333;
+    font-size: 16px;
+    margin:0 15px;
+    font-family:'Roboto';
+    
+}
+p{
+   font-size: 15px; 
+   color: #A6A6A6;
+   font-family: 'roboto';
+   margin:5px 15px;
+
+}
+p strong {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #000000;
+    /* margin: 5px; */
+
+
+}
+
+.caixa-prato-principal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    overflow-x: scroll;
+}
+.prato-principal{
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    margin: 5px 5px;
+    border-radius: 9px;
+
+}
+
+.prato-principal img{
+    width: 144px;
+    border-radius: 4px;
+    left: 33px;
+    top: 183px;
+    margin: 18px 14px 10px 14px ;
+
+}
+
+/* BEBIDAS */
+.caixa-bebidas{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    overflow-x: scroll;
+}
+.bebidas{
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    margin: 5px 5px;
+    border-radius: 9px;
+}
+
+.bebidas img{
+    width: 140px;
+    border-radius: 4px;
+    left: 33px;
+    top: 183px;
+    margin: 18px 14px 10px 14px ;
+}
+
+/* SOBREMESAS */
+.caixa-sobremesa{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    overflow-x: scroll;
+}
+.sobremesa{
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    margin: 5px 5px;
+    border-radius: 9px;
+}
+
+.sobremesa img{
+    width: 144px;
+    border-radius: 4px;
+    left: 33px;
+    top: 183px;
+    margin: 18px 14px 10px 14px ;
+}
+
+
+footer{
+    background-color: #ffff;
+    position: fixed;
+    z-index: 4;
+    height: 92px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.botao-selecionar {
+    text-align: center;
+    background-color: #CBCBCB;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:none;
+    margin:0 auto;
+
+    font-size: 20px;
+    font-family: 'roboto';
+    color: #FFFFFF ;
+}
+
+.selecionado{
+    background-color: green;
+    border: green;
+}
+
+.caixa-prato-principal .selecionado .valor{
+
+}
+.caixa-bebidas .selecionado .valor{
+
+}
+.caixa-sobremesa .selecionado .valor{
+
+}
+
+
